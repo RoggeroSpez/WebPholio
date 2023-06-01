@@ -1,25 +1,119 @@
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .accordion:hover {
-    background-color: #ccc;
-  }
-  
-  /* Style the accordion panel. Note: hidden by default */
-  .panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-  }
+body {
+	font-family: Montserrat;
+	font-weight:normal;
+	font-size:12px;
+	background: #f6f9fc;
+  min-height: 100%;
+  max-width: 100%;
+}
+
+.container {
+  padding: 20px 15px 150px;
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.wrapper {
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+}
+
+.item-wrapper .content {
+	background: #fff;
+  padding: 18px 12px;
+}
+
+.item-wrapper label {
+	background: #fff;
+  border-top: 1px solid #f2f2f2;
+	color: #fff;
+  cursor: pointer;
+	padding: 18px 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.item-wrapper input[type='checkbox'] {
+	display: none;
+}
+
+.bar-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 15px;
+  width: 36px;
+}
+
+.bars {
+  background: #95A0AF;
+  display: block;
+  border-radius: 4px;
+  height: 4px;
+  width: 18px;  
+  -webkit-transition: all 0.35s ease;  
+  transition: all 0.35s ease;
+}
+
+.bars:nth-child(1) {
+  -webkit-transform: translate3d(13px,0,0);
+          transform: translate3d(13px,0,0);
+}
+
+.item-wrapper label:hover {
+  background: #3F4652;
+}
+
+.item-wrapper input[type='checkbox']:checked ~ label {
+  background: -webkit-linear-gradient(315deg,#00c4cc 25%,#016bc0 75%);
+  background: linear-gradient(135deg,#00c4cc 25%,#016bc0 75%);
+}
+
+.item-wrapper input[type='checkbox']:checked ~ label h2 {
+  color: #fff;
+}
+
+.item-wrapper input[type='checkbox']:checked ~ label .bars {
+  background: #fff;
+}
+
+.item-wrapper input[type='checkbox']:checked ~ label .bars:nth-child(1) {   
+  -webkit-transform: translate3d(-150px,0,0);   
+          transform: translate3d(-150px,0,0);
+  opacity: 0;
+}
+
+.item-wrapper input[type='checkbox']:checked ~ .content {
+	height: auto;
+  display: block;
+	min-height: 40px;
+}
+
+.content {
+	height: 0;
+	display: none;
+	overflow: hidden;
+}
+
+/* Some styling */
+h1 {font-size: 36px; color: #293031; text-align: center; margin: 30px 0 40px;}
+h2 {font-size: 18px; color: #95A0AF;}
+p {font-size: 16px; color: rgba(0,0,0,0.5);}
