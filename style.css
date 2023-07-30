@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color:lightblue;
 }
 main {
   width: 80%;
