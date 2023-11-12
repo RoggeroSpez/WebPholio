@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 80%;
+}
