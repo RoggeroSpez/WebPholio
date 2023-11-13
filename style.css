@@ -1,9 +1,5 @@
-.HeadShot{
-  display: flex;
-  justify-content: end;
-}
 
-body {
+.body {
   padding: 2em;
   margin: 0;
   height: 100vh;
@@ -13,7 +9,7 @@ body {
   align-items: center;
   background-color:lightblue;
 }
-main {
+.main {
   width: 80%;
   margin:0 auto;
   justify-content: center;
