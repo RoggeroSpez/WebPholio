@@ -1,28 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 
-.body {
+body {
   padding: 2em;
   margin: 0;
   height: 100vh;
-  font-family: "Verdana", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color:lightblue;
-}
-.main {
-  width: 80%;
-  margin:0 auto;
-  justify-content: center;
-}
-
-summary {
-  padding: 1em;
-  background: blue;
-  margin-bottom: 1em;
-  cursor: pointer;
-  outline: none;
-  border-radius: 0.3em;
-  font-weight: bold;
+  font-family: 'Cinzel Decorative', serif;
 }
 
 details[open] summary ~ * {
