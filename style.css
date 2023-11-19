@@ -6,6 +6,11 @@
     width: 15%;
     border-style: groove;
     border-color: black;
+    border-radius: 15%;
+}
+
+body{
+    background-color: honeydew;
 }
 
 #introduction, #projects, #exp{
@@ -13,6 +18,7 @@
     border-style: groove;
     border-color: black;
     padding: 10px;
+    border-radius: 10%;
 }
 
 #ref{
@@ -21,6 +27,7 @@
     border-style: groove;
     border-color: black;
     padding: 10px;
+    border-radius: 10%;
 }
 
 .card{
@@ -34,7 +41,7 @@
 }
 
 #footer{
-    background-color: blue;
+    background-color: grey;
 }
 
 #logo{
