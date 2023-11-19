@@ -33,11 +33,21 @@ body{
 .card{
     border-style: groove;
     border-color: black;
+    border-radius: 5%;
 }
 
 .card-img-top{
     height: 45px;
     width: 45px;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    border-style: double;
+    border-color: blue;
+    border-radius: 5%;
+    background-color: cyan;
 }
 
 #footer{
