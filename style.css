@@ -8,20 +8,19 @@
     border-color: black;
 }
 
-#introduction, #exp{
+#introduction, #projects, #exp{
     font-family: 'Cinzel Decorative', serif;
     border-style: groove;
     border-color: black;
-}
-
-#projects{
-    border-style: groove;
-    border-color: black;
+    padding: 10px;
 }
 
 #ref{
     display: flex;
     justify-content: space-evenly;
+    border-style: groove;
+    border-color: black;
+    padding: 10px;
 }
 
 .card{
