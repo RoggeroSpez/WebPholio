@@ -13,10 +13,13 @@ body{
     background-color: honeydew;
 }
 
-#introduction, #projects, #exp{
-    font-family: 'Cinzel Decorative', serif;
+#introduction{
     border-style: groove;
     border-color: black;
+}
+
+#introduction, #projects, #exp{
+    font-family: 'Cinzel Decorative', serif;
     padding: 10px;
     border-radius: 10%;
 }
@@ -24,8 +27,6 @@ body{
 #ref{
     display: flex;
     justify-content: space-evenly;
-    border-style: groove;
-    border-color: black;
     padding: 10px;
     border-radius: 10%;
 }
@@ -62,6 +63,7 @@ body{
 
 #footer{
     background-color: grey;
+    border-radius: 3%;
 }
 
 #logo{
