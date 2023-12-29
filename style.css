@@ -34,6 +34,9 @@ body{
     border-style: groove;
     border-color: black;
     border-radius: 5%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 }
 
 .card:hover {
