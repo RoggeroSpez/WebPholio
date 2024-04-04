@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('');
 
 .headshot {
     display: flex;
@@ -19,7 +19,7 @@ body{
 }
 
 #introduction, #projects, #exp{
-    font-family: 'Cinzel Decorative', serif;
+    /*font-family: 'Cinzel Decorative', serif;*/
     padding: 10px;
     border-radius: 10%;
 }
