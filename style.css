@@ -1,4 +1,4 @@
-@import url('');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
 
 .headshot {
     display: flex;
@@ -19,7 +19,9 @@ body{
 }
 
 #introduction, #projects, #exp{
-    /*font-family: 'Cinzel Decorative', serif;*/
+    font-family: "Arbutus Slab", serif;
+    font-weight: 400;
+    font-style: normal;
     padding: 10px;
     border-radius: 10%;
 }
