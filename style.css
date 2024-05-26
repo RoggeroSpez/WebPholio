@@ -10,15 +10,8 @@
 }
 
 body{
-    background-color: honeydew;
-}
-
-#introduction{
-    border-style: groove;
-    border-color: black;
-}
-
-#introduction, #projects, #exp{
+    background-color: honeydew; 
+    #projects, #exp{
     font-family: "Arbutus Slab", serif;
     font-weight: 400;
     font-style: normal;
