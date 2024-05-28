@@ -64,7 +64,7 @@ body{
     height: 45px;
     width: 45px;
 }
-.time{
+#time{
     display: flex;
     align-items: center;
     justify-content: center;
