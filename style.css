@@ -64,7 +64,10 @@ body{
     height: 45px;
     width: 45px;
 }
-.utcdateformat{
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 320px;
     border: 0.2rem solid black;
     border-radius: 16px;
