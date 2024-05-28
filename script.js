@@ -1,5 +1,7 @@
 const element =
-document.getElementById('ct');
+document.getElementById("time");
+
 setInterval(() => {
-    element.innerText = new Date().toLocaleTimeString();
+    element.innerText = 
+    new Date().toLocaleTimeString();
 }, 1000);
