@@ -68,14 +68,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 320px;
+    width: 120px;
     border: 0.2rem solid black;
     border-radius: 16px;
-    padding: 24px;
-    margin: 10px;
     background: transparent;
     box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
-    font-size: 40px;
+    font-size: 30px;
     text-align: right;
     cursor: pointer;
     color: #fff;
