@@ -64,3 +64,26 @@ body{
     height: 45px;
     width: 45px;
 }
+#time{
+    width: 320px;
+    border: 0.2rem solid black;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff, 
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+}

@@ -1,7 +1,7 @@
 const element =
 document.getElementById("time");
 
-setInterval(() => {
-    element.innerText = 
-    new Date().toLocaleTimeString();
+setInteval(() => {
+    const date = new Date();
+    element.innerHTML = date.toLocaleTimeString();
 }, 1000);
