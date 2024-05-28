@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
     <title>WebPholio</title>
 </head>
 <header id="header">
@@ -172,5 +171,18 @@
 </div>
 </small>
 </footer>
+<script>
+  let hrs = document.getElementById("hrs");
+let min = document.getElementById("min");
+let sec = document.getElementById("sec");
+
+setInterval(() => {
+    let currentTime = new Date();
+
+    hrs.innerHTML = (currentTime.getHours()<10?"10":"") + currentTime.getHours();
+    min.innerHTML = (currentTime.getMinutes()<10?"10":"") + currentTime.getMinutes();
+    sec.innerHTML = (currentTime.getSeconds()<10?"10":"") + currentTime.getSeconds();
+}, 1000);
+</script>
 </body>
 </html>
