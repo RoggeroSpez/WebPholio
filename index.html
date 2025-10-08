@@ -5,186 +5,263 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <title>WebPholio</title>
+    <title>Roggero Spezialy - Portfolio</title>
 </head>
-<header id="header">
-<img class="headshot" src="./HeadShot.jpg" alt="My HeadShot">
-</header>
-<br>
 <body>
-  <section id="introduction">
-    <h3>Hello and Welcome to my Web Portfolio</h3>
-    <hr>
-    <p> Hello, My name is Roggero Spezialy and this is a web portfolio I created to showcase my coding abilities as well as to create something more visiually appealing and dynamic then a simplistic two dimesional resume. In this Web Portfolio I wanted to highlight some of the skills I have aquired through Springboard, and through self research. A little about me, I like to play video games usually RPG or advenutre, I enjoy the dynamics of the Indie/Retro styles as well as some of the newer styles. I love sandbox style games as well becuase it allows users/players to create new and fasinating things.</p>
-  </section>
-  <br>
-<section id="projects">
-  <h2>Projects</h2>
-  <div className="PTable">
-    <table>
-        <tbody>
-        <tr>
-            <td>
-            <div class="card" id="mg">
-                <img src="https://scitechdaily.com/images/Brain-Signals-Activity-Technology-Concept.jpg" class="card-img-top" alt="Memory Game"/>
-                <div class="card-body"> <h4 class="card-title">MemoryGame</h4>
-                <p class="card-text">A simple Memory game. Match the colors.</p>
-                <a href="https://roggerospez.github.io/MemoryGame/" class="btn">Link</a>
-                </div>
-            </div>
-            </td>
-            <td>
-            <div class="card" id="cf">
-                <img src="https://atlas-content-cdn.pixelsquid.com/stock-images/connect-4-board-games-2M094K2-600.jpg" class="card-img-top" alt="ConnectFour"/>
-                <div class="card-body"> <h4 class="card-title">ConnectFour</h4>
-                <p class="card-text">Type your color and let the games begin. 2player game.</p>
-                <a href="https://roggerospez.github.io/ConnectFour/" class="btn">Link</a>
-                </div>
-            </div>
-        </td>
-        </tr>
-        <tr>
-        <td>
-            <div class="card" id="jg">
-                <img src="https://img.freepik.com/free-vector/colourful-clown-cartoon-character_1308-96000.jpg?size=626&ext=jpg" class="card-img-top" alt="Joke Generator"/>
-                <div class="card-body"> <h4 class="card-title">Joke Generator</h4>
-                <p class="card-text">Random Joke Generator</p>
-                <a href="https://roggerospez.github.io/Jokes/" class="btn">Jokes</a>
-                </div>
-            </div>
-        </td>
-        <td>
-            <div class="card" id="Cal">
-                <img src="https://help.apple.com/assets/64F2669B7BEF8AE318002477/64F266A17BEF8AE3180024A8/en_US/e726abd62a7d08749d3a882889cdc78d.png" class="card-img-top" alt="Calculator"/>
-                <div class="card-body"> <h4 class="card-title">Calculator</h4>
-                <p class="card-text">Neon Colored Calculator</p>
-                <a href="https://roggerospez.github.io/Calculator/" class="btn">Calculator</a>
-                </div>
-            </div>
-        </td>
-        </tr>
-        <tr>
-        <td>
-            <div class="card" id="GoT">
-                <img src="https://freepngimg.com/thumb/tv_shows/30914-1-game-of-thrones-transparent.png" class="card-img-top" alt="GameOfThronesWiki"/>
-                <div class="card-body"> <h4 class="card-title">GameOfThronesWiki</h4>
-                <p class="card-text">A hand made Game of Thrones Wiki</p>
-                <a href="https://roggerospez.github.io/GameOfThronesWiki/" class="btn">GoT-Wiki</a>
-                </div>
-            </div>
-        </td>
-        <td>
-            <div class="card" id="MemeGen">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdkMHATe0MGAkgUJw_ii_0pw9u4TjvoREjWxaVmzCT0E0-YsmQpWc2YB9ys1ynGXwtb8I&usqp=CAU" class="card-img-top" alt="MemeGenerator"/>
-                <div class="card-body"> <h4 class="card-title">MemeGenerator</h4>
-                <p class="card-text">A meme generator.</p>
-                <a href="https://roggerospez.github.io/MemeGenerator" class="btn">MemeGenerator</a>
-                </div>
-            </div>
-        </td>
-        </tr>
-        </tbody>
-    </table>
-</div>
+<header class="header">
+    <nav class="nav">
+        <div class="nav-brand">RS</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="hero">
+    <div class="hero-content">
+        <img class="headshot" src="./HeadShot.jpg" alt="Roggero Spezialy">
+        <h1>Roggero Spezialy</h1>
+        <p class="hero-subtitle">Front-End Developer</p>
+        <div class="hero-links">
+            <a href="https://github.com/RoggeroSpez" target="_blank" class="hero-link">
+                <img src="githublogo.png" alt="GitHub">
+                <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/roggero-spezialy/" target="_blank" class="hero-link">
+                <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="LinkedIn">
+                <span>LinkedIn</span>
+            </a>
+        </div>
+    </div>
 </section>
-<br>
-<section id="exp">
-  <h2>Education</h2>
-  <ul>
-<h4>SpringBoard (Software Development Front-end)</h4>
- <li>02/2023-11/2023 Basic coding languages (html, css, javascript)</li>
- <h4>Fred G. Acosta Job-corps (Vocational School)</h4>
- <li>05/2009-05/2011 Facilities Maintenance General Education Diploma -09/200 Vocational Training -05/2011</li>
- </ul>
- <hr>
-<h2>Work</h2>
-<h4>Sprintray</h4>
-<ul><li>9/2024-12/2024</li></ul><li>2710 Media Center Dr. Los Angeles, CA</li> <li>While working at Sprintray, My tasks included basic upkeep of Marketing Units as well as documentation of the units conditions such as minor scratches or minor damages to the chasis of the unit. Other tasks would be assined to me through my supervisor as well as the manager of the department I worked under these tasks varied.</li>
-<h4>Amazon Style</h4>
-<ul><li>11/2021-11/2023</li><ul><li>839 Americana Way, Glendale, CA</li> <li>While working at Amazon Style, my tasks include gathering requested items for the customer and delivering them to the required place, another task is to organize the products as well as help keep inventory. I am also trained in multiple parts of the store's operational areas such as Problem Solving.</li></ul></ul>
-<h4>Starbucks</h4> 
-<ul><li>05/2016-11/2022</li><ul>
-<li>114 N. Brand Blvd Glendale, CA</li> <li>While working at Starbucks, my tasks included; Greeting patrons, able to meet specifications requested by patrons,up-selling new products, cleaning various areas around the location, preparing various ingredients, handling financial transactions (Cash, Credit Card, Gift cards), and training future partners.</li></ul></ul>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+            Hello, my name is Roggero Spezialy and this is my web portfolio showcasing my coding abilities and projects.
+            I created this to provide something more visually appealing and dynamic than a traditional resume.
+            Through Springboard and self-directed learning, I've developed skills in HTML, CSS, and JavaScript.
+            I'm passionate about creating interactive web experiences and enjoy working on projects that allow for creativity and innovation.
+        </p>
+    </div>
 </section>
-<br>
- <section id="ref">
-<table>
-<tbody>
-<tr>
-<td>
-<div class="card" id="tt">
- <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" class="card-img-top" alt="Thierno Thiam Linkedin">
- <div class="card-body"> <h4 class="card-title">Thierno Thiam</h4>
-    <p class="card-text">Thierno Thiam is my mentor and teacher.</p>
-    <p>He has guided me on this Path of Success.</p>
-    <a href="https://www.linkedin.com/in/thierno-thiam-9753489b" class="btn">Linkedin</a>
- </div>
-</div>
-</td>
-<!--<div class="card" id="bk">
-  <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" class="card-img-top" alt="Brian Koh Linkedin">
-  <div class="card-body"> <h4 class="card-title">Brian Koh</h4>
-    <p class="card-text">Brian Koh is a close co-worker whom helped me at work.</p>
-    <a href="https://www.linkedin.com/in/brian-koh-1a025819a" class="btn">Linkedin</a>
-  </div>
-</div>-->
-<!-- <div class="card" id="bl">
-  <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" class="card-img-top" alt="Brandon Lomeli Linkedin">
-  <div class="card-body"> <h4 class="card-title">Brandon Lomeli</h4>
-    <p class="card-text">Brandon Lomeli is a close co-worker whom helped me at work.</p>
-    <a href="https://www.linkedin.com/in/brandon-lomeli-b6a5a626a" class="btn">Linkedin</a>
-  </div>
-</div>-->
-<td>
-<div class="card" id="jn">
-  <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" class="card-img-top" alt="Jimmy Noorani Linkedin">
-  <div class="card-body"> <h4 class="card-title">Jimmy Noorani</h4>
-    <p class="card-text">Jimmy Noorani is a close co-worker.</p>
-		<p> He helped me alot at work.</p>
-    <a href="https://www.linkedin.com/in/jimmynoorani/" class="btn">Linkedin</a>
-  </div>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
- </section>
-</body>
- <br>
- <hr>
- <footer id="footer"> 
-  <section id="social">
-    <table>
-      <tbody>
-        <tr>
-    <td><a href="https://www.linkedin.com/in/roggero-spezialy/"> <img id="logo" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="https://www.linkedin.com/in/roggero-spezialy/"></a></td>
-    <td><a href="https://github.com/RoggeroSpez"><img id="logo" src="githublogo.png" alt="https://github.com/RoggeroSpez"></a></td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-  <small>&copy; All images are owned by their respective owners, including logos and other items. 
-    <div id="time">
-    <span id="hrs">00</span>
-    <span>:</span>
-    <span id="min">00</span>
-    <span>:</span>
-    <span id="sec">00</span>
-</div>
-</small>
+
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://scitechdaily.com/images/Brain-Signals-Activity-Technology-Concept.jpg" alt="Memory Game">
+                </div>
+                <div class="project-content">
+                    <h3>Memory Game</h3>
+                    <p>A simple memory game where players match colors to test their cognitive skills.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                    <a href="https://roggerospez.github.io/MemoryGame/" target="_blank" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://atlas-content-cdn.pixelsquid.com/stock-images/connect-4-board-games-2M094K2-600.jpg" alt="Connect Four">
+                </div>
+                <div class="project-content">
+                    <h3>Connect Four</h3>
+                    <p>Classic two-player game where players compete to connect four pieces in a row.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                    <a href="https://roggerospez.github.io/ConnectFour/" target="_blank" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://img.freepik.com/free-vector/colourful-clown-cartoon-character_1308-96000.jpg?size=626&ext=jpg" alt="Joke Generator">
+                </div>
+                <div class="project-content">
+                    <h3>Joke Generator</h3>
+                    <p>Random joke generator that fetches jokes from an API to bring laughter to users.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">API</span>
+                        <span class="tech-tag">HTML</span>
+                    </div>
+                    <a href="https://roggerospez.github.io/Jokes/" target="_blank" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://help.apple.com/assets/64F2669B7BEF8AE318002477/64F266A17BEF8AE3180024A8/en_US/e726abd62a7d08749d3a882889cdc78d.png" alt="Calculator">
+                </div>
+                <div class="project-content">
+                    <h3>Calculator</h3>
+                    <p>Neon-styled calculator with a modern interface for basic arithmetic operations.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                    <a href="https://roggerospez.github.io/Calculator/" target="_blank" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://freepngimg.com/thumb/tv_shows/30914-1-game-of-thrones-transparent.png" alt="Game of Thrones Wiki">
+                </div>
+                <div class="project-content">
+                    <h3>Game of Thrones Wiki</h3>
+                    <p>A handcrafted wiki dedicated to the Game of Thrones universe with detailed information.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <a href="https://roggerospez.github.io/GameOfThronesWiki/" target="_blank" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdkMHATe0MGAkgUJw_ii_0pw9u4TjvoREjWxaVmzCT0E0-YsmQpWc2YB9ys1ynGXwtb8I&usqp=CAU" alt="Meme Generator">
+                </div>
+                <div class="project-content">
+                    <h3>Meme Generator</h3>
+                    <p>Create custom memes with text overlays on popular meme templates.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                    <a href="https://roggerospez.github.io/MemeGenerator" target="_blank" class="project-link">View Project →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience" class="section">
+    <div class="container">
+        <h2 class="section-title">Education & Experience</h2>
+
+        <div class="experience-container">
+            <div class="experience-section">
+                <h3>Education</h3>
+                <div class="experience-item">
+                    <h4>SpringBoard</h4>
+                    <p class="experience-title">Software Development Front-end</p>
+                    <p class="experience-date">February 2023 - November 2023</p>
+                    <p>Completed comprehensive training in HTML, CSS, and JavaScript</p>
+                </div>
+                <div class="experience-item">
+                    <h4>Fred G. Acosta Job Corps</h4>
+                    <p class="experience-title">Vocational School</p>
+                    <p class="experience-date">May 2009 - May 2011</p>
+                    <p>Facilities Maintenance & General Education Diploma</p>
+                </div>
+            </div>
+
+            <div class="experience-section">
+                <h3>Work Experience</h3>
+                <div class="experience-item">
+                    <h4>Sprintray</h4>
+                    <p class="experience-date">September 2024 - December 2024</p>
+                    <p class="experience-location">2710 Media Center Dr. Los Angeles, CA</p>
+                    <p>Handled maintenance and documentation of marketing units, ensuring quality standards and performing various assigned tasks.</p>
+                </div>
+                <div class="experience-item">
+                    <h4>Amazon Style</h4>
+                    <p class="experience-date">November 2021 - November 2023</p>
+                    <p class="experience-location">839 Americana Way, Glendale, CA</p>
+                    <p>Provided customer service, managed inventory, and trained in multiple operational areas including problem-solving.</p>
+                </div>
+                <div class="experience-item">
+                    <h4>Starbucks</h4>
+                    <p class="experience-date">May 2016 - November 2022</p>
+                    <p class="experience-location">114 N. Brand Blvd Glendale, CA</p>
+                    <p>Delivered excellent customer service, managed financial transactions, and trained new partners.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <h2 class="section-title">References</h2>
+        <div class="references-grid">
+            <div class="reference-card">
+                <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="LinkedIn">
+                <h3>Thierno Thiam</h3>
+                <p>Mentor and teacher who has guided me on the path to success.</p>
+                <a href="https://www.linkedin.com/in/thierno-thiam-9753489b" target="_blank" class="reference-link">View LinkedIn →</a>
+            </div>
+            <div class="reference-card">
+                <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="LinkedIn">
+                <h3>Jimmy Noorani</h3>
+                <p>Close co-worker who provided valuable support and guidance at work.</p>
+                <a href="https://www.linkedin.com/in/jimmynoorani/" target="_blank" class="reference-link">View LinkedIn →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/roggero-spezialy/" target="_blank">
+                    <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/RoggeroSpez" target="_blank">
+                    <img src="githublogo.png" alt="GitHub">
+                </a>
+            </div>
+            <div class="footer-time">
+                <span id="hrs">00</span>:<span id="min">00</span>:<span id="sec">00</span>
+            </div>
+            <p class="footer-copyright">&copy; 2024 Roggero Spezialy. All rights reserved.</p>
+        </div>
+    </div>
 </footer>
+
 <script>
-  let hrs = document.getElementById("hrs");
-let min = document.getElementById("min");
-let sec = document.getElementById("sec");
+const hrs = document.getElementById("hrs");
+const min = document.getElementById("min");
+const sec = document.getElementById("sec");
 
-setInterval(() => {
-    let currentTime = new Date();
+function updateTime() {
+    const currentTime = new Date();
+    hrs.textContent = String(currentTime.getHours()).padStart(2, '0');
+    min.textContent = String(currentTime.getMinutes()).padStart(2, '0');
+    sec.textContent = String(currentTime.getSeconds()).padStart(2, '0');
+}
 
-    hrs.innerHTML = (currentTime.getHours()<10?"10":"") + currentTime.getHours();
-    min.innerHTML = (currentTime.getMinutes()<10?"10":"") + currentTime.getMinutes();
-    sec.innerHTML = (currentTime.getSeconds()<10?"10":"") + currentTime.getSeconds();
-}, 1000);
+updateTime();
+setInterval(updateTime, 1000);
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    });
+});
 </script>
 </body>
 </html>
